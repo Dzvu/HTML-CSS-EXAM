@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+  margin-left: 15px;
+}
+nav a:last-child {
+  text-decoration: none;
+  color: #ff3998;
+}
+
+section h6 {
+  color: #ff3998;
+}
+section h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+}
