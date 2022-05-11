@@ -1,4 +1,11 @@
-nav {
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* header nav  */
+header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,6 +23,7 @@ nav a:last-child {
   color: #ff3998;
 }
 
+/* First section */
 .advert {
   display: flex;
   flex-direction: row;
@@ -27,7 +35,7 @@ section img {
 h6 {
   color: #ff3998;
 }
-section h1 {
+h1 {
   font-size: 60px;
   font-family: sans-serif;
 }
@@ -41,12 +49,49 @@ button {
   width: 100px;
   border-color: #ff3998;
 }
+h1,
+h6,
+p,
+button {
+  margin: 0;
+  margin-bottom: 15px;
+}
 
-/* midnavlinks */
+/* mid nav */
 .mid-nav img {
   width: 100px;
   height: 50px;
 }
 .mid-nav a {
   justify-content: space-between;
+}
+
+/* second section */
+section {
+  margin-bottom: 50px;
+}
+.choise-menu {
+  border-top-width: thin;
+  border-bottom-style: solid;
+  border-color: rgba(128, 128, 128, 0.233);
+}
+
+/* third section */
+.bottom-advert {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  border-top-width: thin;
+  border-bottom-style: solid;
+  border-color: rgba(128, 128, 128, 0.233);
+}
+
+h6 {
+  font-family: sans-serif;
+}
+.footer-img {
+  height: 250px;
+}
+h2 {
+  font-size: 30px;
 }
