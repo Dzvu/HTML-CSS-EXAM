@@ -9,14 +9,13 @@ body {
 /* header nav  */
 header {
   width: 720px;
-  margin: auto;
 }
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 50px;
   margin-bottom: 50px;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -24,6 +23,8 @@ nav a {
   text-decoration: none;
   color: grey;
   margin-left: 15px;
+  font-family: sans-serif;
+  font-size: 12px;
 }
 nav a:last-child {
   text-decoration: none;
@@ -49,8 +50,11 @@ h1 {
   font-size: 50px;
   font-family: "Inter", sans-serif;
 }
-section p {
+section p,
+footer p {
   color: gray;
+  font-family: sans-serif;
+  font-size: 12px;
 }
 
 h1,
@@ -70,7 +74,7 @@ button {
 .mid-nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* second section */
@@ -82,7 +86,8 @@ section {
   border-bottom-style: solid;
   border-color: rgba(128, 128, 128, 0.233);
 }
-.choises {
+.choises,
+.choise-price {
   display: flex;
   flex-direction: row;
   gap: 15px;
@@ -91,6 +96,7 @@ section {
 .choises img {
   width: 165px;
 }
+
 .prices {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -105,8 +111,8 @@ section {
   font-size: 6px;
   color: orange;
 }
-.top > p:last-child {
-  color: gray;
+.top-r {
+  font-size: 6px;
 }
 p img {
   width: 6px;
@@ -140,6 +146,11 @@ p img {
 .id-r {
   text-align: right;
 }
+h3 {
+  font-size: 20px;
+  font-family: "inter", sans-serif;
+  letter-spacing: 1px;
+}
 
 /* third section */
 .bottom-advert {
@@ -156,6 +167,7 @@ p img {
 }
 h2 {
   font-size: 30px;
+  font-family: "inter", sans-serif;
 }
 
 /* footer */
@@ -175,6 +187,7 @@ footer a {
   display: block;
   color: gray;
   margin-top: 5px;
+  font-family: "inter" sans-serif;
 }
 aside {
   display: flex;
@@ -182,6 +195,7 @@ aside {
   justify-content: space-between;
   color: rgba(128, 128, 128, 0.747);
   font-size: 12px;
+  margin-bottom: 40px;
 }
 
 .multimedia-icons {
@@ -207,3 +221,8 @@ button {
 .logo {
   height: 20px;
 }
+h6 {
+  font-size: 8px;
+}
+
+@media max width;
